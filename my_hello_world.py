@@ -5,7 +5,7 @@ import http.server
 import socketserver
 from datetime import datetime, timezone
 
-## quick 'n dirty hello world to test container backend/proxy services
+## quick 'n dirty hello world to test container backend/proxy service (see bugre/haproxy)
 
 PORT = int(os.environ.get('PORT', '80'))
 
