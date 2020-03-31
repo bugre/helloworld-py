@@ -16,19 +16,7 @@ cache servers, apache/ngnix, etc
 
 ## Run with Docker compose
 
-
-### docker-compose.yml
-
-    haproxy:
-      image: bugre/haproxy
-      links:
-      - webapp
-      ports:
-      - "80:80"
-      - "1936:1936"
-
-    webapp:
-      image: bugre/helloworld-py
+  See docker-compose.yml file
 
 
 ### Scale and test
